@@ -189,9 +189,7 @@ var hang = function () {
         //Decrement function decrement the value.
         function Decrement() {
             if(life==0){flag=0;
-                prev_scores[g++]=0;
-        const input= prev_scores[g-1]
-        addTodos(input);
+                
         document.querySelectorAll('#b1').forEach(elem => {
             elem.disabled = true;
         });
